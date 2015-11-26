@@ -1,0 +1,20 @@
+{
+  "name": "purescript-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.6.7",
+    "pulp": "^5.0.0",
+    "purescript": "^0.7.6"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "pulp run"
+  }
+}
